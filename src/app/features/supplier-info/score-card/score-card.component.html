@@ -1,3 +1,25 @@
-<p>
-  score-card works!
-</p>
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="sales-tab" data-toggle="tab" href="#Sales" role="tab" aria-controls="sales"
+      aria-selected="true">Supplier Sales</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="bussiness-tab" data-toggle="tab" href="#Bussiness" role="tab" aria-controls="bussiness"
+      aria-selected="false">Supplier to Business</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="audit-tab" data-toggle="tab" href="#Audit" role="tab" aria-controls="audit"
+      aria-selected="false">Supplier Audits</a>
+  </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="Sales" role="tabpanel" aria-labelledby="sales-tab">
+    <app-supplier-sales></app-supplier-sales>
+  </div>
+  <div class="tab-pane fade" id="Bussiness" role="tabpanel" aria-labelledby="bussiness-tab">
+    <app-supplier-business></app-supplier-business>
+  </div>
+  <div class="tab-pane fade" id="Audit" role="tabpanel" aria-labelledby="audit-tab">
+    <app-supplier-audits></app-supplier-audits>
+  </div>
+</div>

@@ -4,13 +4,15 @@ import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
 import {CoreModule} from './core/core.module';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { AgGridModule } from 'ag-grid-angular';
 
 
 const modules = [
   BrowserModule,
   AppRoutingModule,
   CoreModule.forRoot(),
-  NgbModule.forRoot()
+  NgbModule.forRoot(),
+  AgGridModule.withComponents([])
 ];
 
 const exportsArray = [];

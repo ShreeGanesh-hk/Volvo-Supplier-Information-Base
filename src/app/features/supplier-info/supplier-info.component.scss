@@ -18,3 +18,7 @@ h5{
   }
 }
 
+.form-control:focus {
+  box-shadow: 0 0 0 0.05rem rgba(14, 123, 186, 0.25);
+}
+

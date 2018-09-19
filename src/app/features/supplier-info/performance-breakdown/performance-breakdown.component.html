@@ -1,0 +1,18 @@
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="trend-tab" data-toggle="tab" href="#Trend" role="tab" aria-controls="trend"
+        aria-selected="true">Performance Trend</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="breakdown-tab" data-toggle="tab" href="#BreakDown" role="tab" aria-controls="breakdown"
+        aria-selected="false">Performance BreakDown</a>
+    </li>
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="Trend" role="tabpanel" aria-labelledby="trend-tab">
+      <app-trend></app-trend>
+    </div>
+    <div class="tab-pane fade" id="BreakDown" role="tabpanel" aria-labelledby="breakdown-tab">
+      <app-breakdown></app-breakdown>
+    </div>
+  </div>

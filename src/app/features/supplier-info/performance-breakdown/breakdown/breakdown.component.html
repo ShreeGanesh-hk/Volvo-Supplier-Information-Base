@@ -1,0 +1,8 @@
+<div class="container">
+    <div style="margin-bottom:4px">
+        <input placeholder="Filter..." type="text" id="filter-textbox1" (input)="onTextboxFilterChanged()"></div>
+      
+      <ag-grid-angular #agGrid style="width: 100%; height: 450px;" id="myGridbd" class="ag-theme-fresh" [columnDefs]="columnDefs"
+        [rowData]="rowData" [getNodeChildDetails]="getNodeChildDetails" (gridReady)="onGridReady($event)">
+      </ag-grid-angular>      
+</div>

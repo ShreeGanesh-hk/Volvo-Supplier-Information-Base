@@ -7,8 +7,10 @@ const routes: Routes = [
   {
     path: '', component: SupplierInfoComponent,
     children: [
-      {path: '', loadChildren: './supplier/supplier.module#SupplierModule'},
+      {path: '',redirectTo:'supplier',pathMatch:'full'},
+      {path: 'supplier', loadChildren: './supplier/supplier.module#SupplierModule'},
       {path: 'scorecard', loadChildren: './score-card/score-card.module#ScoreCardModule'},
+      {path: 'performance', loadChildren: './performance-breakdown/performance-breakdown.module#PerformanceBreakdownModule'},
     ]
   }
 ];

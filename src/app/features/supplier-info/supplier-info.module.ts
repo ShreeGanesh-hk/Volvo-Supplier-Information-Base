@@ -6,13 +6,15 @@ import {SupplierInfoComponent} from './supplier-info.component';
 import {SharedModule} from '../../shared/shared.module';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {SupplierInfoService} from './supplier-info.service';
+import { AgGridModule } from 'ag-grid-angular';
 
 @NgModule({
   imports: [
     CommonModule,
     SharedModule,
     NgbModule,
-    SupplierInfoRoutingModule
+    SupplierInfoRoutingModule,
+    AgGridModule.withComponents([])
   ],
   providers: [SupplierInfoService],
   declarations: [SupplierInfoComponent]

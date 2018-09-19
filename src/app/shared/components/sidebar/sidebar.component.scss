@@ -1,3 +1,30 @@
 .fa {
   margin-right: 10px;
 }
+
+
+.list-group a{
+
+
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color:transparent;
+    color:#6E6E6E;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  
+}
+
+.list-group .active{
+
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color:transparent;
+  color: #0E7BBA;
+  font-weight: 500;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+
+}

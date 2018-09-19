@@ -3,7 +3,30 @@
 .container{
     margin-top:10%;
 }
-@import "./scss/bootstrap/scss/bootstrap";
+
+
 $fa-font-path: "~font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome";
+@import "./scss/bootstrap/scss/bootstrap";
+
+
+@import "~ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/dist/styles/ag-theme-fresh.css";
+
+.my-custom-class .tooltip-inner {
+    background-color: lightgrey;
+    font-size: 1rem;
+    display: inline;
+    color:#484848;
+  }
+  .my-custom-class .arrow::before {
+    border-top-color: lightgrey;
+    color: lightgrey;
+  }
+
+
+
+
+
+
 

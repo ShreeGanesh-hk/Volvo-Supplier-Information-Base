@@ -17,10 +17,12 @@ const states = ['Alabama', '18 Ganesh', 'Alaska', 'American Samoa', 'Arizona', '
 
 const x: Array<any> = [
   {
-    'name': 'ganesh 18',
+    'name': 'Proton Engineering AB (18)',
     'id': '18'
   }
 ];
+
+
 
 @Component({
   selector: 'app-supplier-info',
@@ -68,4 +70,5 @@ export class SupplierInfoComponent implements OnInit {
     this.supplierComponent.updateRef();*/
     this.showDetails = true;
   }
+
 }
