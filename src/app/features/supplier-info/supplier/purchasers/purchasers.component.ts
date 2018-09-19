@@ -9,6 +9,7 @@ declare var $:any;
 export class PurchasersComponent implements OnInit {
   public show1:boolean = false;
   public className:any = 'arrow-down';
+  public className1:any = 'arrow-down';
   public show2:boolean = false;
 
   constructor() { }
@@ -29,9 +30,9 @@ export class PurchasersComponent implements OnInit {
     this.show2 = !this.show2;
 
     if(this.show2)  
-      this.className = "arrow-up";
+      this.className1 = "arrow-up";
     else
-      this.className = "arrow-down";
+      this.className1 = "arrow-down";
   }
 
 }

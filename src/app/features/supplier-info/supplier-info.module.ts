@@ -7,11 +7,13 @@ import {SharedModule} from '../../shared/shared.module';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {SupplierInfoService} from './supplier-info.service';
 import { AgGridModule } from 'ag-grid-angular';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   imports: [
     CommonModule,
     SharedModule,
+    ChartsModule,
     NgbModule,
     SupplierInfoRoutingModule,
     AgGridModule.withComponents([])

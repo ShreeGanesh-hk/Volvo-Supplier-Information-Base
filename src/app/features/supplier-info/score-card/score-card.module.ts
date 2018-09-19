@@ -6,11 +6,13 @@ import {ScoreCardComponent} from './score-card.component';
 import { SupplierSalesComponent } from './supplier-sales/supplier-sales.component';
 import { SupplierBusinessComponent } from './supplier-business/supplier-business.component';
 import { SupplierAuditsComponent } from './supplier-audits/supplier-audits.component';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   imports: [
     CommonModule,
-    ScoreCardRoutingModule
+    ScoreCardRoutingModule,
+    ChartsModule
   ],
   declarations: [ScoreCardComponent, SupplierSalesComponent, SupplierBusinessComponent, SupplierAuditsComponent]
 })

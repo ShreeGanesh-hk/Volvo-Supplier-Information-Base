@@ -5,11 +5,13 @@ import {AppRoutingModule} from './app-routing.module';
 import {CoreModule} from './core/core.module';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AgGridModule } from 'ag-grid-angular';
+import { ChartsModule } from 'ng2-charts';
 
 
 const modules = [
   BrowserModule,
   AppRoutingModule,
+  ChartsModule,
   CoreModule.forRoot(),
   NgbModule.forRoot(),
   AgGridModule.withComponents([])
